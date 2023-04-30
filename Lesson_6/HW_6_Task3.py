@@ -1,7 +1,5 @@
 # Task 3
 
-number = int(input('Enter a number: '))
-
 
 def is_prime(n):
     if n < 2:
@@ -11,5 +9,3 @@ def is_prime(n):
             return False
     return True
 
-
-print(is_prime(number))
