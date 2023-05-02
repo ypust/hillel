@@ -21,10 +21,10 @@ if __name__ == '__main__':
     print(is_prime(6))
 
     # Task 4
-    print(change_list('la hello hi good'))
+    print(change_list(['hello', 'nice', 'to', 'meet', 'you']))
 
     # Task 5
-    print(to_dict('Hello,nice,fine'))
+    print(to_dict(['Hello', 'nice', 'fine']))
 
     # Task 6
     print(sum_range(13, 8))

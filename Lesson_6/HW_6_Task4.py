@@ -1,10 +1,9 @@
 # Task 4
 
 
-def change_list(data):
-    new_list = data.split(' ')
-    if len(new_list) < 2:
-        return False
+def change_list(list):
+    if len(list) < 2:
+        raise Exception('The list has less than 2 items')
     else:
-        new_list[0], new_list[-1] = new_list[-1], new_list[0]
-        return tuple(new_list)
+        list[0], list[-1] = list[-1], list[0]
+        return list
