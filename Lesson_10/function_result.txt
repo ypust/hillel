@@ -1,0 +1,3 @@
+Function launched at 2023-05-15 14:37:07.728420 with result 11
+Function launched at 2023-05-15 14:37:19.302717 with result 4
+Function launched at 2023-05-15 14:37:26.102337 with result 17
