@@ -65,10 +65,12 @@ if __name__ == '__main__':
     human.buy_house(house_obj, 25)
 
     """ Виправте фінансове становище об'єкта - викличте метод earn_money() """
-    human.earn_money(375)
+    human.earn_money(500)
 
     """Знову спробуйте купити будинок"""
     human.buy_house(house_obj, 25)
 
     """Подивіться, як змінилося стан об'єкта класу Human"""
     human.info()
+
+
