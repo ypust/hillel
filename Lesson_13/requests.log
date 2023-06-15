@@ -1,0 +1,6 @@
+2023-05-25 14:59:59,448 INFO GET request was made to "/users". Status code is 200
+2023-05-25 14:59:59,448 INFO GET request was made to "/posts". Status code is 200
+2023-05-25 14:59:59,448 INFO GET request was made to "/comments". Status code is 200
+2023-05-25 14:59:59,449 INFO GET request was made to "/todos". Status code is 200
+2023-05-25 14:59:59,449 INFO POST request was made to "/users". Status code is 201
+2023-05-25 14:59:59,449 INFO POST request was made to "/posts". Status code is 201
