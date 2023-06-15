@@ -1,3 +1,7 @@
 .idea/
 .DS_Store
 */__pycache__
+.pytest_cache
+allure_results_customers_and_managers
+allure_results_ui_playground
+allure_results_welcome_to_internet

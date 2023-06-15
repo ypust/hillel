@@ -7,6 +7,3 @@ def check_number_division(n):
         print('YES')
     else:
         print('NO')
-
-
-
