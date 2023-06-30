@@ -1,4 +1,5 @@
 import allure
+from playwright.sync_api import expect
 
 from Lesson_18.pages.web_pages import WebTables
 
@@ -13,7 +14,8 @@ class TestWebPages:
         user.add_new_user('Maria', 'Jones', 'maria.jones@testmail.com', '30', '5000', 'Sales')
         user.submit_application()
 
-        assert page.get_by_role("gridcell", name="Maria", exact=True)
+        expect(page.get_by_role("row", name="Maria Jones 30 maria.jones@testmail.com 5000 Sales",
+                                exact=False)).to_be_visible()
 
     @allure.title('Test search for a user')
     @allure.description('Test user can search for a user')
