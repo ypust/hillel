@@ -1,2 +1,3 @@
 .pytest_cache
 Dockerfile
+*/__pycache__
