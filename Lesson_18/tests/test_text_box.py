@@ -18,8 +18,6 @@ class TestTextBox:
 
         entered_name = page.locator("[id=name]").text_content()[5:]
         entered_email = page.locator("[id=email]").text_content()[6:]
-        entered_current_address = page.get_by_text("Current Address : ").text_content()[17:]
-        entered_permanent_address = page.get_by_text("Permananet Address : ").text_content()[19:]
 
         assert entered_name == 'User Test'
         assert entered_email == 'test.mail@example.com'
